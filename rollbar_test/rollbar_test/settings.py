@@ -123,7 +123,7 @@ STATIC_URL = '/static/'
 
 
 ROLLBAR = {
-    'access_token': 'f1fe32d368e647c291e6cbc1f0ae3fac',
+    'access_token': 'ACCESS_TOKEN',
     'environment': 'development' if DEBUG else 'production',
     'branch': 'master',
     'root': os.getcwd(),
